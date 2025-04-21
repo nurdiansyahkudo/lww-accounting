@@ -8,7 +8,7 @@ class AccountJournal(models.Model):
 
     code = fields.Char(
         string='Short Code',
-        size=10,
+        size=15,
         compute='_compute_code', readonly=False, store=True,
         required=True, precompute=True,
         help="Shorter name used for display. "
