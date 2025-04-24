@@ -9,5 +9,6 @@
                 <field name="no_journal"
                        invisible="move_type != 'entry'" />
             </xpath>
+        </field>
     </record>
 </odoo>
