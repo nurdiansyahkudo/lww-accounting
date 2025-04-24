@@ -23,6 +23,8 @@ Customization in LWW Accounting Module
     # always loaded
     'data': [
         # 'security/ir.model.access.csv',
+        # VIEWS
+        'views/account_move_views.xml'
     ],
     'application': False,
     'installable': True
