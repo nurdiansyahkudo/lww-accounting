@@ -9,7 +9,7 @@
                 <field name="no_journal"
                        invisible="move_type != 'entry'" />
             </xpath>
-            <xpath expr="//field[@name='partner_id']" position="after">
+            <xpath expr="//field[@name='partner_id']" position="before">
                 <field name="invoice_no"
                        invisible="move_type not in ('out_invoice', 'out_refund', 'in_invoice', 'in_refund', 'out_receipt', 'in_receipt')" />
             </xpath>
